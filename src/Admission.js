@@ -26,7 +26,7 @@ const AdmissionForm = (props) => {
     }
 
     if (age < 18 || age > 65) {
-      alert('Sorry, you must be between 18 and 65 years old to enroll in Yoga Classes.');
+      alert('Sorry, you must be between 18 and 65 years old to enroll in Yoga Classes.Apply again!');
       return;
     }
 
